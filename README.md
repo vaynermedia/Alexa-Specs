@@ -8,7 +8,7 @@
 - [Invocation Names](#invocation-names)
 - [Writing for Alexa](#writing-for-alexa)
 
-Succinct answers to common questions regarding Alexa Skills. While Amazon's [Official Documentation](https://developer.amazon.com/docs) includes everything, it is a huge read. This doc includes only the most important info, written specifically for project managers and creatives.
+This document outlines general specifications regarding Alexa Skills. While Amazon's [Official Documentation](https://developer.amazon.com/docs) includes everything, it is a huge read. This doc includes only the most important info, written specifically for Creatives, UX and Project Managers.
 
 You might also skim the [Alexa Terminology Glossary](https://developer.amazon.com/designing-for-voice/glossary/)
 
