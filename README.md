@@ -5,15 +5,13 @@ All skills require the following information:
 
 | Field  | Description | Example
 | ------------- | ------------- | ------------- |
-| Public Name  | 	
-The name of the skill, 50 chars max. It can differ from the invocation name, though that's not recommended.  | Pizza Party  |
+| Public Name | The name of the skill, 50 chars max. It can differ from the invocation name, though that's not recommended.  | Pizza Party  |
 | Short Description  | 160 chars max  | Let Alexa help you plan the perfect pizza party for you and your friends!  |
 | Full Description  | 4,000 chars max, explaining the skill's core functionality and any prerequisites to using it (such as additional hardware, software, or accounts).  | Pizza Party is an all-inclusive skill to help you plan a pizza-themed party. Get suggestions for popular toppings combos, track guest RSVPs, and even find and order from pizzerias in your area! Pizza Party has it all.  |
 | [Primary Example Phrase](https://developer.amazon.com/blogs/post/Tx3J3K6VCRJ6T1X/Alexa-Skills-Kit-Certification-Tips-Examples-Phrases-and-Sample-Utterances)  | How to launch your skill. It **must** contain “Alexa” and your Invocation Name.  | Alexa, start the Pizza Party  |
 | One or two optional Secondary Phrases  | How to access major features of your skill. | Find pizzerias in my area.  |
 | App Icon  | 55 x 55 PNG with transparency.  | Content Cell  |
-| Small Icon  | 108 X 108 PNG with transparency. Recommended 16px padding on all sides.  | ![alt text](https://s3.amazonaws.com/voicecon-full/voicecon+icon+108.png "Small Icon")
-  |
+| Small Icon  | 108 X 108 PNG with transparency. Recommended 16px padding on all sides.  | ![alt text](https://s3.amazonaws.com/voicecon-full/voicecon+icon+108.png "Small Icon") |
 | Large Icon  | 512 X 512 PNG with transparency. Recommended 75px padding on all sides.  | ![alt text](https://s3.amazonaws.com/voicecon-full/voicecon+icon+512.png "Large Icon") |
 | Category | Used for search in the Alexa skill store. [See all categories here](#categories). | `Delivery & Takeout`  |
 | Keywords | Search keywords for the Alexa skill store.  | Content Cell  |
@@ -22,42 +20,21 @@ The name of the skill, 50 chars max. It can differ from the invocation name, tho
 
 
 ## Categories
-###General:
-`Business & Finance`, `Connected Car`, `Education & Reference`, `Health & Fitness`, `News`, `Novelty & Humor`, `Schools, ``Shopping`, `Smart Home`, `Weather`
 
-###Food & drink:
-`Cooking & Recipes`, `Delivery & Takeout`, `Restaurant Booking, Info & Reviews`, `Wine & Beverages`
-
-###Games Trivia & Accessories:
-`Games`, `Game Info & Accessories`, `Knowledge & Trivia`
-
-### Kids
-If your skill targets children, pick only from this list.
-`Education & Reference`, `Games`, `Music & Audio`, `Novelty & Humor`
-
-### Lifestyle:
-`Astrology`, `Event Finders`, `Fashion & Style`, `Home Services`, `Pets & Animals`, `Religion & Spirituality`, `Self Improvement`
-
-### Movies & TV:
-`Knowledge & Trivia`, `Movie Info & Reviews`, `Movie Showtimes`, `TV Guides`
-
-### Music & Audio:
-`Accessories`, `Knowledge & Trivia`, `Music Info, Reviews & Recognition Services`, `Podcasts`, `Streaming Services`
-
-### Productivity:
-`Organizers & Assistants`, `To-Do Lists & Notes`
-
-### Social:
-`Communication`, `Dating`, `Friends & Family`, `Social Networking`
-
-### Sports:
-`Exercise & Workout`, `Games`, `News`, `Scorekeeping`
-
-### Travel & Transportation:
-`Currency Guides & Converters`, `Flight Finders`, `Hotel Finders`, `Navigation & Trip Planners`, `Public Transportation`, `Taxi & Ridesharing`, `Translators`
-
-### Utilities:
-`Alarms & Clocks`, `Calculators`, `Calendars & Reminders`, `Device Tracking`, `Unit Converters`, `Zip Code Lookup`
+| Group  | Category
+| ------------- | ------------- |
+| General | `Business & Finance`, `Connected Car`, `Education & Reference`, `Health & Fitness`, `News`, `Novelty & Humor`, `Schools, ``Shopping`, `Smart Home`, `Weather` |
+| Food & Drink | `Cooking & Recipes`, `Delivery & Takeout`, `Restaurant Booking, Info & Reviews`, `Wine & Beverages` |
+| Games Trivia & Accessories |  `Games`, `Game Info & Accessories`, `Knowledge & Trivia` |
+| Kids | `Education & Reference`, `Games`, `Music & Audio`, `Novelty & Humor`
+| Lifestyle | `Astrology`, `Event Finders`, `Fashion & Style`, `Home Services`, `Pets & Animals`, `Religion & Spirituality`, `Self Improvement` |
+| Movies & TV | `Knowledge & Trivia`, `Movie Info & Reviews`, `Movie Showtimes`, `TV Guides` |
+| Music & Audio | `Accessories`, `Knowledge & Trivia`, `Music Info, Reviews & Recognition Services`, `Podcasts`, `Streaming Services` |
+| Productivity | `Organizers & Assistants`, `To-Do Lists & Notes` |
+| Social | `Communication`, `Dating`, `Friends & Family`, `Social Networking` |
+| Sports | `Exercise & Workout`, `Games`, `News`, `Scorekeeping` |
+| Travel & Transportation | `Currency Guides & Converters`, `Flight Finders`, `Hotel Finders`, `Navigation & Trip Planners`, `Public Transportation`, `Taxi & Ridesharing`, `Translators` |
+| Utilities | `Alarms & Clocks`, `Calculators`, `Calendars & Reminders`, `Device Tracking`, `Unit Converters`, `Zip Code Lookup` |
 
 Character Lengths
 Logo types, sizes etc
