@@ -1,32 +1,16 @@
 
 ## Table of Contents
 
-- [Invocation Names](#invocation-names)
-- [Writing for Alexa](#writing-for-alexa)
 - [Publishing Info](#publishing-info)
 - [Skill Categories](#skill-categories)
 - [Audio Specifications](#audio-specifications)
 - [Video Specifications](#Video-specifications)
+- [Invocation Names](#invocation-names)
+- [Writing for Alexa](#writing-for-alexa)
 
-[Alexa Terminology Glossary](https://developer.amazon.com/designing-for-voice/glossary/)
+Succinct answers to common questions regarding Alexa Skills. While Amazon's [Official Documentation](https://developer.amazon.com/docs) includes everything, it is a huge read. This doc includes only the most important info, written specifically for project managers and creatives.
 
-# Invocation Names
-This is the key phrase used to launch your skill. Good invocation names...
-* Should be longer than one syllable
-* Can’t include “The”
-* Are easy to pronounce
-
-# [Writing for Alexa](https://developer.amazon.com/docs/custom-skills/voice-design-best-practices-legacy.html)
-The highest rated Alexa skills do one thing, and do it very well. Navigating lots of options is easy to do in a website, but difficult in a voice experience. When designing an Alexa skill, it's best to K.I.S.S. (that's “Keep it simple, stupid!”)
-
-Alexa works much like a walkie-talkie, where only one partner (i.e. Alexa or the user) can speak at a time. Poorly written dialog can cause users to be unsure when it's their turn to talk. Successful Alexa dialog will implicitly encourage this call-and-response relationship, so users feel like they can speak naturally.
-
-| Bad Dialog  | Good Dialog
-| ------------- | ------------- |
-| Let's plan a pizza party. I can help you make an invite list. Name the friends you'd like to invite: Patricia, Tommy, Sharon, or someone else? | Let's plan a pizza party. Which friends would you like to invite? |
-| Which would you like on your pizza? Pepperoni, mushroom or extra cheese? | We have pepperoni, mushroom and extra cheese. Which topping would you like on your pizza? |
-| If you like, I can find pizzerias in your area. | Would you like me to find a pizzeria in your area? |
-
+You might also skim the [Alexa Terminology Glossary](https://developer.amazon.com/designing-for-voice/glossary/)
 
 # [Publishing Info](https://developer.amazon.com/docs/devconsole/launch-your-skill.html#skill-metadata)
 All Alexa skills require the following information:
@@ -99,3 +83,20 @@ Note that not all Alexa users will have a device on-hand to see this content. Vi
 * MPEG4 or H.264 codec
 * 640x480 or 1280x720 recommended resolution
 * 1280x720 maximum resolution (4K not supported)
+
+# Invocation Names
+This is the key phrase used to launch your skill. Good invocation names...
+* Should be longer than one syllable
+* Can’t include “The”
+* Are easy to pronounce
+
+# [Writing for Alexa](https://developer.amazon.com/docs/custom-skills/voice-design-best-practices-legacy.html)
+The highest rated Alexa skills do one thing, and do it very well. Navigating lots of options is easy to do in a website, but difficult in a voice experience. When designing an Alexa skill, it's best to K.I.S.S. (that's “Keep it simple, stupid!”)
+
+Alexa works much like a walkie-talkie, where only one partner (i.e. Alexa or the user) can speak at a time. Poorly written dialog can cause users to be unsure when it's their turn to talk. Successful Alexa dialog will implicitly encourage this call-and-response relationship, so users feel like they can speak naturally.
+
+| Bad Dialog  | Good Dialog
+| ------------- | ------------- |
+| Let's plan a pizza party. I can help you make an invite list. Name the friends you'd like to invite: Patricia, Tommy, Sharon, or someone else? | Let's plan a pizza party. Which friends would you like to invite? |
+| Which would you like on your pizza? Pepperoni, mushroom or extra cheese? | We have pepperoni, mushroom and extra cheese. Which topping would you like on your pizza? |
+| If you like, I can find pizzerias in your area. | Would you like me to find a pizzeria in your area? |
