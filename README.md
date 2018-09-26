@@ -104,6 +104,33 @@ Alexa works much like a walkie-talkie, where only one partner (i.e. Alexa or the
 | Which would you like on your pizza? Pepperoni, mushroom or extra cheese? | We have pepperoni, mushroom and extra cheese. Which topping would you like on your pizza? |
 | If you like, I can find pizzerias in your area. | Would you like me to find a pizzeria in your area? |
 
+Alexa writers, designers and developers often break text up into two, maybe three categories:
+
+### Speech
+The main copy. Alexa is providing the user with information of some kind. *There are no questions presented here.*
+
+| Examples
+| ------------- |
+| Welcome to Pizza Party. |
+| We have pepperoni, mushroom and extra cheese. |
+
+### Prompt (or Reprompt)
+This is where we're asking the user to respond in some way. It should be a short, standalone question. If the user takes too long deciding what to say, Alexa will repeat this question for them.
+
+| Examples
+| ------------- |
+| Which friends would you like to invite? |
+| Which topping would you like on your pizza? |
+| Would you like me to find a pizzeria in your area? |
+
+### Preprompt
+This is text that could be prepended to a lot of different responses. We like to keep this kind of dialog separate to maximize flexibility and reusability. Sometimes this copy can be consumed by the speech, and sometimes not. It's more of a feeling than an exact category.
+
+| Examples
+| ------------- |
+| Okay, let's plan a pizza party. |
+| I can help with that. |
+
 ## Letters, Numbers and Characters
 
 Humans can usually infer how a piece of written text should be spoken, and Alexa tries her best to infer this as well. While there are ways for programmers to express this with markup, there are some easy shorthands you should be aware of:
@@ -112,7 +139,7 @@ Humans can usually infer how a piece of written text should be spoken, and Alexa
 | Style  | Interpretation
 | ------------- | ------------- |
 | & (ampersand) | **This kills Alexa**. Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you. |
-| , (comma) | A **semi-short pause** (~150ms) to be used more often than you think. Read your text aloud. If you make any short pause, a comma should be there. The Oxford comma is almost always a good idea |
+| , (comma) | A **semi-short pause** (~150ms) which should be used judiciously, but not everywhere. Read your text aloud. If you make any short pause, a comma should be there. If you don't pause, *get rid of the comma*. Also know that the Oxford comma is almost always a good idea. |
 | . (period) | A **semi-long pause** (~300ms) to be used as normal |
 | ? (question mark) | This gives Alexa a slight upward inflection to imply she's asking a question |
 | ! (exclamation point) | **This does nothing**. Don't use them with writing or it will give you the false impression that you're controlling the tone of the sentence. |
