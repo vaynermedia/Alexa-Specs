@@ -111,27 +111,28 @@ Humans can usually infer how a piece of written text should be spoken, and Alexa
 ### Characters and Punctuation
 | Style  | Interpretation
 | ------------- | ------------- |
-| & (ampersand) | *This kills Alexa.* Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you. |
-| , (comma) | A semi-short pause (~150ms) to be used more often than you think. Read your text aloud. If you make any short pause, a comma should be there. The Oxford comma is almost always a good idea |
-| . (period) | A semi-long pause (~300ms) to be used as normal |
+| & (ampersand) | **This kills Alexa**. Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you. |
+| , (comma) | A **semi-short pause** (~150ms) to be used more often than you think. Read your text aloud. If you make any short pause, a comma should be there. The Oxford comma is almost always a good idea |
+| . (period) | A **semi-long pause** (~300ms) to be used as normal |
 | ? (question mark) | This gives Alexa a slight upward inflection to imply she's asking a question |
-| ! (exclamation point) | This does nothing. Don't use them with writing or it will give you the false impression that you're controlling the tone of the sentence. |
+| ! (exclamation point) | **This does nothing**. Don't use them with writing or it will give you the false impression that you're controlling the tone of the sentence. |
+| “” (quotes) | Avoid quotes of any kind. Curly quotes are often mangled. Straight quotes may well break the code. Even beyond scare quotes, e.g. when repeating something someone said, they don't change Alexa's inflection and aren't worth creating a hard-to-find bug.
 
 ### Acronyms
 TL;DR, while not always necessary, you can use periods to demarcate acronyms.
 
 | Style  | Interpretation
 | ------------- | ------------- |
-| FBI | These letters are all capitalized, and don't look like any english word, so Alexa assumes you mean the acronym and says “F B I”. |
-| POW | These letters are all capitalized, but look like a *word*, so she goes with that: the onomatopoeia “pow”. |
-| p.o.w. | These letters separated by periods (no spaces), and so Alexa knows you mean this as the *acronym* for “prisoner of war”. Note: this is the safest way to deal with acronyms! |
+| FBI | These letters are all capitalized, and don't look like any English word, so Alexa assumes you mean the acronym and says “F B I”. |
+| POW | These letters are all capitalized, but look like a **word**, so she goes with that: the onomatopoeia “pow”. |
+| p.o.w. | These letters separated by periods (no spaces), and so Alexa knows you mean this as the **acronym** for “prisoner of war”. Note: this is the safest way to deal with acronyms! |
 
 ### Numbers
 | Style  | Interpretation
 | ------------- | ------------- |
-| 212 867 5309 | Because the numbers are separated by spaces, Alexa assumes this is a *phone number* and will read it as such: “two one two … eight six seven … five three zero nine”. |
-| 2128675309 | No spaces, so Alexa assumes a *cardinal number*, that is: “two billion, one hundred twenty eight million…” |
-| 1940 | This looks like a *year*, so Alexa treats it as such, and says nineteen forty” as opposed to “one thousand nine hundred forty”. If it was a very far off year (before 1700 or after 3000), Alexa stops assuming you mean a year. Sorry history and sci-fi fans. |
-| October 8 | This number comes after a month, so Alexa assumes that it is a *day* and so will pronounce it as an *ordinal* number: “eighth” |
-| 22nd | This is clearly an *ordinal* number so will be pronounced “twenty-second”. |
-| 22rd | This may be an ordinal misspelling, but Alexa assumes you have no typos in your text so assumes this is a *model number*, and she says “twenty two R D”. |
+| 212 867 5309 | Because the numbers are separated by spaces, Alexa assumes this is a **phone number** and will read it as such: “two one two … eight six seven … five three zero nine”. |
+| 2128675309 | No spaces, so Alexa assumes a **cardinal number**, that is: “two billion, one hundred twenty eight million…” |
+| 1940 | This looks like a **year**, so Alexa treats it as such, and says nineteen forty” as opposed to “one thousand nine hundred forty”. If it was a very far off year (before 1700 or after 3000), Alexa stops assuming you mean a year. Sorry history and sci-fi fans. |
+| October 8 | This number comes after a month, so Alexa assumes that it is a **day** and so will pronounce it as an **ordinal number**: “eighth” |
+| 22nd | This is clearly an *ordinal number** so will be pronounced “twenty-second”. |
+| 22rd | This may be an ordinal misspelling, but Alexa assumes you have no typos in your text so assumes this is a **model number**, and she says “twenty two R D”. |
