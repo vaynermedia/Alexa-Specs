@@ -138,19 +138,20 @@ Humans can usually infer how a piece of written text should be spoken, and Alexa
 ### Characters and Punctuation
 | Style  | Interpretation
 | ------------- | ------------- |
-| & (ampersand) | **This kills Alexa**. Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you. |
+| & (ampersand) | **This kills Alexa**. Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you and they will take away all your favorite snacks. |
 | , (comma) | A **semi-short pause** (~150ms) which should be used judiciously, but not everywhere. Read your text aloud. If you make any short pause, a comma should be there. If you don't pause, *get rid of the comma*. Also know that the Oxford comma is almost always a good idea. |
-| . (period) | A **semi-long pause** (~300ms) to be used as normal |
-| ? (question mark) | This gives Alexa a slight upward inflection to imply she's asking a question |
+| . (period) | A **semi-long pause** (~300ms) to be used as normal. |
+| ? (question mark) | This gives Alexa a slight upward inflection to imply she's asking a question. |
 | ! (exclamation point) | **This does nothing**. Don't use them with writing or it will give you the false impression that you're controlling the tone of the sentence. |
-| “” (quotes) | Avoid quotes of any kind. Curly quotes are often mangled. Straight quotes may well break the code. Even beyond scare quotes, e.g. when repeating something someone said, they don't change Alexa's inflection and aren't worth creating a hard-to-find bug.
+| “” (quotes) | Avoid quotes of any kind. Curly quotes are often mangled; straight quotes may well break the code. Even beyond scare quotes, e.g. when reading a quote by someone else, they don't change Alexa's inflection and aren't worth risking a hard-to-find bug. |
+| - (hyphen) | Treated no differently from a space. Use it or don't. |
 
 ### Acronyms
 TL;DR, while not always necessary, you can use periods to demarcate acronyms.
 
 | Style  | Interpretation
 | ------------- | ------------- |
-| FBI | These letters are all capitalized, and don't look like any English word, so Alexa assumes you mean the acronym and says “F B I”. |
+| FBI | These letters are all capitalized, and don't look like any English word, so Alexa assumes you mean the **acronym** and says “F B I”. |
 | POW | These letters are all capitalized, but look like a **word**, so she goes with that: the onomatopoeia “pow”. |
 | p.o.w. | These letters separated by periods (no spaces), and so Alexa knows you mean this as the **acronym** for “prisoner of war”. Note: this is the safest way to deal with acronyms! |
 
