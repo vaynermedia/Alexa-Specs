@@ -5,8 +5,7 @@
 - [Skill Categories](#skill-categories)
 - [Audio Specifications](#audio-specifications)
 - [Video Specifications](#Video-specifications)
-- [Invocation Names](#invocation-names)
-- [Writing for Alexa](#writing-for-alexa)
+- [Writing & Designing for Alexa](#writing--designing-for-alexa)
 
 This document outlines general specifications regarding Alexa Skills. While Amazon's [Official Documentation](https://developer.amazon.com/docs) includes everything, it is a huge read. This doc includes only the most important info, written specifically for Creatives, UX and Project Managers.
 
@@ -17,7 +16,8 @@ All Alexa skills require the following information:
 
 | Field  | Description | Example
 | ------------- | ------------- | ------------- |
-| **Public Name** | 50 chars max. Public name can differ from the skill's invocation name, though that's not recommended.  | Pizza Party  |
+| **Invocation Name** | This is the key phrase used to launch your skill. It should be longer than one syllable; easy to pronounce; and can’t include “The”.  | Pizza Party  |
+| **Public Name** | 50 chars max. Public name can (though usually shouldn't) differ from the skill's invocation name, though that's not recommended.  | Pizza Party  |
 | **Short Description**  | 160 chars max  | Let Alexa help you plan the perfect pizza party for you and your friends!  |
 | **Full Description**  | 4,000 chars max. Explains the skill's core functionality and any prerequisites to using it (such as additional hardware, software, or accounts).  | Pizza Party is an all-inclusive skill to help you plan a pizza-themed party. Get suggestions for popular toppings combos, track guest RSVPs, and even find and order from pizzerias in your area! Pizza Party has it all.  |
 | **[Primary Example Phrase](https://developer.amazon.com/blogs/post/Tx3J3K6VCRJ6T1X/Alexa-Skills-Kit-Certification-Tips-Examples-Phrases-and-Sample-Utterances)**  | How to launch your skill. It *must* contain “Alexa” and your Invocation Name.  | Alexa, start the Pizza Party  |
@@ -84,12 +84,6 @@ Note that not all Alexa users will have a device on-hand to see this content. Vi
 * 640x480 or 1280x720 recommended resolution
 * 1280x720 maximum resolution (4K not supported)
 
-# Invocation Names
-This is the key phrase used to launch your skill. Good invocation names...
-* Should be longer than one syllable
-* Can’t include “The”
-* Are easy to pronounce
-
 # [Writing & Designing for Alexa](https://developer.amazon.com/docs/custom-skills/voice-design-best-practices-legacy.html)
 
 The highest rated Alexa skills do one thing, and do it very well. Navigating lots of options is easy to do in a website, but difficult in a voice experience. When designing an Alexa skill, it's best to K.I.S.S. (that's “Keep it simple, stupid!”)
@@ -107,11 +101,11 @@ Alexa works much like a walkie-talkie, where only one partner (i.e. Alexa or the
 Alexa writers, designers and developers often break text up into two, maybe three categories:
 
 ### Speech
-The main copy. Alexa is providing the user with information of some kind. *There are no questions presented here.*
+The main copy. Almost always this space is used to allow Alexa to provide the user with information of some kind. *There are no questions presented here.*
 
 | Examples
 | ------------- |
-| Welcome to Pizza Party. |
+| I can find pizzerias in your area, help you make an order, and even invite your friends to the party! |
 | We have pepperoni, mushroom and extra cheese. |
 
 ### Prompt (or Reprompt)
@@ -124,11 +118,11 @@ This is where we're asking the user to respond in some way. It should be a short
 | Would you like me to find a pizzeria in your area? |
 
 ### Preprompt
-This is text that could be prepended to a lot of different responses. We like to keep this kind of dialog separate to maximize flexibility and reusability. Sometimes this copy can be consumed by the speech, and sometimes not. It's more of a feeling than an exact category.
+This is text that could be prepended to a lot of different responses. Sometimes this copy can be consumed by the speech, and sometimes not. It's more of a feeling than an exact category. Where it feels appropriate, try to identify where it feels appropriate to keep this kind of dialog separate.
 
 | Examples
 | ------------- |
-| Okay, let's plan a pizza party. |
+| Welcome to Pizza Party. |
 | I can help with that. |
 
 ## Letters, Numbers and Characters
