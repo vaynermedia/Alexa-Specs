@@ -151,9 +151,9 @@ TL;DR, while not always necessary, you can use periods to demarcate acronyms.
 
 | Style  | Interpretation
 | ------------- | ------------- |
-| FBI | These letters are all capitalized, and don't look like any English word, so Alexa assumes you mean the **acronym** and says “F B I”. |
-| POW | These letters are all capitalized, but look like a **word**, so she goes with that: the onomatopoeia “pow”. |
-| p.o.w. | These letters separated by periods (no spaces), and so Alexa knows you mean this as the **acronym** for “prisoner of war”. Note: this is the safest way to deal with acronyms! |
+| POW | These letters are all uppercase, but look like a **word**, so Alexa assumes that: the onomatopoeia “pow”. |
+| P.O.W. | These letters are uppercase and separated by periods (no spaces), and so Alexa knows you mean this as the **acronym** for “prisoner of war”. Note: this is the safest way to deal with acronyms! |
+| P.O.W.'s | To **pluralize an acronym**, use an apostrophe — even when not possessive — to ensure Alexa doesn't assume the S is another initial in the acronym. |
 
 ### Numbers
 | Style  | Interpretation
@@ -162,5 +162,5 @@ TL;DR, while not always necessary, you can use periods to demarcate acronyms.
 | 2128675309 | No spaces, so Alexa assumes a **cardinal number**, that is: “two billion, one hundred twenty eight million…” |
 | 1940 | This looks like a **year**, so Alexa treats it as such, and says nineteen forty” as opposed to “one thousand nine hundred forty”. If it was a very far off year (before 1700 or after 3000), Alexa stops assuming you mean a year. Sorry history and sci-fi fans. |
 | October 8 | This number comes after a month, so Alexa assumes that it is a **day** and so will pronounce it as an **ordinal number**: “eighth” |
-| 22nd | This is clearly an *ordinal number** so will be pronounced “twenty-second”. |
+| 22nd | This is clearly an **ordinal number** so will be pronounced “twenty-second”. |
 | 22rd | This may be an ordinal misspelling, but Alexa assumes you have no typos in your text so assumes this is a **model number**, and she says “twenty two R D”. |
