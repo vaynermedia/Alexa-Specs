@@ -105,11 +105,11 @@ The main copy. Almost always this space is used to allow Alexa to provide the us
 
 | Examples
 | ------------- |
-| I can find pizzerias in your area, help you make an order, and even invite your friends to the party! |
+| I can find pizzerias in your area, help you make an order, and even invite your friends to the party!
 | We have pepperoni, mushroom and extra cheese. |
 
-### Prompt (or Reprompt)
-This is where we're asking the user to respond in some way. It should be a short, standalone question. If the user takes too long deciding what to say, Alexa will repeat this question for them.
+### Prompt
+Sometimes called the Reprompt. This is where we're asking the user to respond in some way. It should be a short, standalone question. If the user takes too long deciding what to say, Alexa will repeat this question for them.
 
 | Examples
 | ------------- |
@@ -118,7 +118,7 @@ This is where we're asking the user to respond in some way. It should be a short
 | Would you like me to find a pizzeria in your area? |
 
 ### Preprompt
-This is text that could be prepended to a lot of different responses. Sometimes this copy can be consumed by the speech, and sometimes not. It's more of a feeling than an exact category. Where it feels appropriate, try to identify where it feels appropriate to keep this kind of dialog separate.
+This is text that could be prepended to a lot of different responses. Sometimes this copy can be consumed by the speech, and sometimes not. It's more of a feeling than an exact category. Where it seems appropriate, keep this kind of dialog separate from the Speech.
 
 | Examples
 | ------------- |
@@ -135,8 +135,8 @@ Humans can usually infer how a piece of written text should be spoken, and Alexa
 | & (ampersand) | **This kills Alexa**. Never use ampersands. In fact, it's often best to avoid all special characters of any kind. But if you use ampersands in your Alexa dialog, the dev team will find you and they will take away all your favorite snacks. |
 | , (comma) | A **semi-short pause** (~150ms) which should be used judiciously, but not everywhere. Read your text aloud. If you make any short pause, a comma should be there. If you don't pause, *get rid of the comma*. Also know that the Oxford comma is almost always a good idea. |
 | . (period) | A **semi-long pause** (~300ms) to be used as normal. |
-| ? (question mark) | This gives Alexa a slight upward inflection to imply she's asking a question. |
-| ! (exclamation point) | **This does nothing**. Don't use them with writing or it will give you the false impression that you're controlling the tone of the sentence. |
+| ? (question mark) | Question marks give Alexa a slight upward inflection to imply she's asking a question. You can mostly use these marks as per usual. |
+| ! (exclamation point) | **Exclamation points do nothing**. Don't use them in your writing, or it will give you the false impression that you're controlling the tone of the sentence. You are not. |
 | “” (quotes) | Avoid quotes of any kind. Curly quotes are often mangled; straight quotes may well break the code. Even beyond scare quotes, e.g. when reading a quote by someone else, they don't change Alexa's inflection and aren't worth risking a hard-to-find bug. |
 | - (hyphen) | Treated no differently from a space. Use it or don't. |
 
